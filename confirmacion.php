@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <li class="list-group-item"><strong>Email:</strong> <?php echo htmlspecialchars($email); ?></li>
                 </ul>
                 <div class="text-center mt-4">
-                    <a href="index.html" class="btn btn-primary">Volver al formulario</a>
+                    <a href="index.php" class="btn btn-primary">Volver al formulario</a>
                 </div>
             </div>
         </div>
