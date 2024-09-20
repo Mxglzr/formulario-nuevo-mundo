@@ -8,14 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
-    <!-- hola soy anthony -->
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <h3 class="text-center">Modelo del Formulario</h3>
                 <p class="text-center">Bienvenidos al formulario de la I.E. "Nuevo Mundo".</p>
-                <form action="enviar.php" method="post">
+                <form action="confirmacion.php" method="post">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -38,7 +36,6 @@
             </div>
         </div>
     </div>
-    <!--Hola Tony--> 
 
     <!-- Enlace a Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
